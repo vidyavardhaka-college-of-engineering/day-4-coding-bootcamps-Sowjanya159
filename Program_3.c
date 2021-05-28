@@ -13,5 +13,23 @@ int main()
    //Read the Value of row and coloumn of the matrix (i.e size of matrix) using scanf statement
    //Read the elements of matrix a using nested for loop and scanf statment
    //Print the elements of matrix a using nested for loop and printf statment as per the above specified format
+  int disp[5][5];
+  int i,j;
+    for(i=0;i<5;j++)
+    {
+      for(j=0;j<5;j++)
+      {
+        printf("Enter value for disp[%d][%d]:",i,j);
+        scanf("%d",&diap[i][j]);
+      }
+    }
+  printf("Two dimensional array elements :\n");
+  if(j==5)
+   {
+    printf("\n");
+   }
+ }
+}
+
   return 0;
 }
