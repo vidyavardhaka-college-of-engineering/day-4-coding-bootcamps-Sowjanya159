@@ -27,6 +27,5 @@ int main()
     sum+=a[i];
   }
   printf("Sum of all elements stored in the array is :%d\n\n",sum);
-  
-  return 0;
+   return 0;
 }
